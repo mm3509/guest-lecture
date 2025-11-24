@@ -1,21 +1,13 @@
 import numpy
 
 
-def difference(x, y):
-    """Computes difference, converting to signed integers with 32
-    bits. Otherwise, with unsigned 8-bit integers, 0 - 1 = 255
-    (overflow/saturation arithmetics).
-    """
-    return x.astype("int32") - y.astype("int32")
-
-
-def distance(x, y, verbose=False):
+def distance(x, y):
     """Euclidean distance.
     """
     return numpy.sum(numpy.square(x - y))
 
 
-def kNN1(x, training_X, training_y, verbose=False):
+def kNN1(x, training_X, training_y):
     """Simple 1-nearest neighbor algorithm.
     """
 
