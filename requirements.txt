@@ -1,0 +1,4 @@
+scikit-learn
+mnist_datasets
+numpy
+pandas

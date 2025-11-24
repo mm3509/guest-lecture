@@ -1,0 +1,5 @@
+generate_watches.py
+generate_time_series.py
+t10k-*-ubyte*
+train-*-ubyte*
+solution*
