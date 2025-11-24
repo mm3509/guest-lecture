@@ -16,7 +16,7 @@ def kNN1(x, training_X, training_y):
     # Return a tuple, with the label of the nearest neighbor, and its position
     # in the training data (for plotting).
 
-    return training_y[nearest], nearest
+    return training_y[index_of_nearest_neighbor], index_of_nearest_neighbor
 
 
 def kNN(x, k, training_X, training_y):
